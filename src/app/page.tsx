@@ -1,0 +1,23 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className="relative w-full h-screen  ">
+
+      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-42 px-16 bg-white dark:bg-black sm:items-start">
+        <Image
+          src="https://i.pinimg.com/1200x/7a/d7/7f/7ad77fdae977c55f86893ae07d879676.jpg"
+          alt="background"
+          fill
+          priority
+          className="object-cover opacity-50"
+        />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+            Mini Store Create with Next.js
+          </h1>
+        </div>
+      </main>
+    </div>
+  );
+}
