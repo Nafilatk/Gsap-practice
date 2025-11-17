@@ -10,6 +10,7 @@ export default function Navbar() {
         <Link href="/gsap.from">Gsap.from</Link>
         <Link href="/gsap.fromto">Gsap.fromTo</Link>
         <Link href="/gsap.timeline">Gsap.timeline</Link>
+        <Link href="/stagger">Stagger</Link>
 
       </div>
     </nav>

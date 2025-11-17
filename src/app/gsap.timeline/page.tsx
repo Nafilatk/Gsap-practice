@@ -17,13 +17,14 @@ export default function Home() {
        opacity: 0 
       })
 
-      .from(box2.current, { x: -300, opacity: 0 })
+      .from(box2.current, {
+         x: -300, 
+         opacity: 0 
+        })
 
         .from(box3.current, {
         x: 300,
         opacity: 0,
-        rotate: -180,
-        scale: 0.2,
         borderRadius: "50%",
         duration: 1.5,
         ease: "back.out(1.7)",
