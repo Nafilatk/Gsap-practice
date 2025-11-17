@@ -8,6 +8,7 @@ export default function Navbar() {
         <Link href="/">Home</Link>
         <Link href="/gsap.to">Gsap.to</Link>
         <Link href="/gsap.from">Gsap.from</Link>
+        <Link href="/gsap.fromto">Gsap.fromTo</Link>
 
       </div>
     </nav>

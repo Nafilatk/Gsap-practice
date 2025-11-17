@@ -14,8 +14,7 @@ export default function Home() {
 
         gsap.from(box1Ref.current, {
             x: -400,
-            y: 0,
-            duration: 5,
+            duration: 3,
             rotate: 360,
             scale: 3,
             opacity: 0.8,
@@ -23,8 +22,7 @@ export default function Home() {
         }),
             gsap.from(box2Ref.current, {
                 x: 400,
-                y: 0,
-                duration: 5,
+                duration: 3,
                 rotate: 360,
                 scale: 3,
                 opacity: 0.8,
@@ -43,7 +41,7 @@ export default function Home() {
                     <div
                         ref={box1Ref}
 
-                        className=" w-24 h-24 bg-pink-500  rounded-xl"
+                        className=" w-24 h-24 bg-pink-600  rounded-xl"
                     >
                     </div>
                     <div

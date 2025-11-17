@@ -64,7 +64,7 @@ import { useEffect, useRef } from "react"
       <div
         ref={box1Ref}
       
-        className=" w-24 h-24 bg-pink-500  rounded-xl" 
+        className=" w-24 h-24 bg-pink-600  rounded-xl" 
       >
       </div>
             <div
