@@ -14,17 +14,19 @@ export default function Home() {
 
         gsap.from(box1Ref.current, {
             x: -400,
-            duration: 3,
+            duration: 2,
             rotate: 360,
             scale: 3,
+            repeat : -1,
             opacity: 0.8,
             ease: "power1.out",
         }),
             gsap.from(box2Ref.current, {
                 x: 400,
-                duration: 3,
+                duration: 2,
                 rotate: 360,
                 scale: 3,
+                 repeat : -1,           
                 opacity: 0.8,
                 ease: "power1.out",
             })

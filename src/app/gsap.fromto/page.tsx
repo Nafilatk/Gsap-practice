@@ -27,26 +27,22 @@ export default function Home() {
         ease: "power1.out",
       },
 
-    )
-      // gsap.fromTo(box3Ref.current, {
-      //   x: 0,
-      //   y: 0,
-      //   duration: 5,
-      //   rotate: 360,
-      //   scale: 3,
-      //   opacity: 0.8,
-      //   ease: "power1.out",
-      // },
-      //   {
-      //     x: 1000,
-      //     y: 0,
-      //     duration: 5,
-      //     rotate: 360,
-      //     scale: 3,
-      //     opacity: 0.8,
-      //     ease: "power1.out",
-      //   }
-      // )
+    ),
+      gsap.fromTo(box3Ref.current, {
+        x: 0,
+        duration: 2,
+        opacity: 0.8,
+        ease: "power1.out",
+      },
+        {
+          x: 1000,
+          y: 0,
+          duration: 5,
+          scale: 3,
+          opacity: 0.8,
+          ease: "power1.out",
+        }
+      )
 
 
   }, [])
@@ -69,19 +65,19 @@ export default function Home() {
       </section>
 
 
-      {/* <section>
+      <section>
 
         <div className="w-screen h-screen  flex justify-between items-center px-10">
           <div
             ref={box3Ref}
-            className=" w-24 h-24 bg-pink-500  rounded-xl"
+            className=" w-24 h-24 bg-pink-600  rounded-xl"
           >
           </div>
 
 
         </div>
 
-      </section> */}
+      </section>
     </div>
 
 
