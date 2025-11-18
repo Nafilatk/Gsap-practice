@@ -14,7 +14,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            Mini Store Create with Next.js
+            Greensock Animation Platform  (GSAP)
           </h1>
         </div>
       </main>

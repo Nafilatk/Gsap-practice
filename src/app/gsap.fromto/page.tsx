@@ -16,6 +16,8 @@ export default function Home() {
       x: 0,
       duration: 1,
       opacity: 0.8,
+      repeat: -1,
+
     },
       {
         x: 400,
@@ -23,7 +25,7 @@ export default function Home() {
         rotate: 360,
         scale: 3,
         opacity: 0.8,
-        repeat : -1,
+        repeat: -1,
         ease: "power1.out",
       },
 
@@ -39,6 +41,8 @@ export default function Home() {
           y: 0,
           duration: 5,
           scale: 3,
+          repeat: -1,
+
           opacity: 0.8,
           ease: "power1.out",
         }

@@ -13,20 +13,26 @@ export default function Home() {
     });
 
     tl.from(box1.current, {
-       y: -200, 
-       opacity: 0 
-      })
+      y: -200,
+      repeat: -1,
+
+      opacity: 0
+    })
 
       .from(box2.current, {
-         x: -300, 
-         opacity: 0 
-        })
+        x: -300,
+        opacity: 0,
+        repeat: -1
 
-        .from(box3.current, {
+      })
+
+      .from(box3.current, {
         x: 300,
         opacity: 0,
         borderRadius: "50%",
         duration: 1.5,
+        repeat: -1,
+
         ease: "back.out(1.7)",
       })
       .to(box3.current, {
@@ -35,55 +41,55 @@ export default function Home() {
         duration: 1,
         ease: "elastic.out(1, 0.4)"
       })
-      .to(box3.current,{
-        x : -250,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
+      .to(box3.current, {
+        x: -250,
+        borderRadius: "100%",
+        duration: 1,
+        ease: "Power3.out"
       });
-        tl.to(box1.current,{
-        x : 250,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
+    tl.to(box1.current, {
+      x: 250,
+      borderRadius: "100%",
+      duration: 1,
+      ease: "Power3.out"
 
+    }),
+      tl.to(box2.current, {
+        x: -130,
+        borderRadius: "100%",
+        duration: 1,
+        ease: "Power3.out"
+      })
+    tl.to(box3.current, {
+      x: -120,
+      borderRadius: "100%",
+      duration: 1,
+      ease: "Power3.out"
+    }),
+      tl.to(box1.current, {
+        x: 120,
+        borderRadius: "100%",
+        duration: 1,
+        ease: "Power3.out"
       }),
-        tl.to(box2.current,{
-        x : -130,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        })    
-        tl.to(box3.current,{
-        x : -120,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        }) ,
-        tl.to(box1.current,{
-        x : 120,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        }) ,
-        tl.to(box3.current,{
-        x : -5,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        }) 
-        tl.to(box1.current,{
-        x : -10,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        }) ,
-        tl.to(box2.current,{
-        x : 0,
-        borderRadius : "100%",
-        duration : 1,
-        ease : "Power3.out"
-        }) 
+      tl.to(box3.current, {
+        x: -5,
+        borderRadius: "100%",
+        duration: 1,
+        ease: "Power3.out"
+      })
+    tl.to(box1.current, {
+      x: -10,
+      borderRadius: "100%",
+      duration: 1,
+      ease: "Power3.out"
+    }),
+      tl.to(box2.current, {
+        x: 0,
+        borderRadius: "100%",
+        duration: 1,
+        ease: "Power3.out"
+      })
 
   }, []);
 

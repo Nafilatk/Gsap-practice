@@ -20,6 +20,7 @@ import { useEffect, useRef } from "react"
       duration:5,
       rotate : 360,
       scale :3,
+      repeat : -1,
       opacity : 0.8,
       ease : "power1.out",
     }),
@@ -29,6 +30,8 @@ import { useEffect, useRef } from "react"
       duration:5,
       rotate : 360,
       scale :3,
+       repeat : -1,
+
       opacity : 0.8,
       ease : "power1.out",
     }),
@@ -38,6 +41,7 @@ import { useEffect, useRef } from "react"
       duration:5,
       rotate : 360,
       scale :3,
+            repeat : -1,
       opacity : 0.8,
       ease : "power1.out",
     }),
@@ -47,6 +51,7 @@ import { useEffect, useRef } from "react"
       duration:5,
       rotate : 360,
       scale :3,
+            repeat : -1,
       opacity : 0.8,
       ease : "power1.out",
     })

@@ -12,7 +12,7 @@ export default function Page() {
       y: 100,
       opacity: 0,
       duration: 1,
-      stagger: 1,
+      stagger: 0.2,
       repeat : -1,
       ease: "power3.out"
     });
