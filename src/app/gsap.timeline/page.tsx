@@ -9,12 +9,11 @@ export default function Home() {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      defaults: { duration: 1, ease: "power3.out" }
+      defaults: { duration: 1, ease: "power3.out", }
     });
 
     tl.from(box1.current, {
       y: -200,
-      repeat: -1,
 
       opacity: 0
     })
@@ -22,7 +21,6 @@ export default function Home() {
       .from(box2.current, {
         x: -300,
         opacity: 0,
-        repeat: -1
 
       })
 
@@ -31,7 +29,6 @@ export default function Home() {
         opacity: 0,
         borderRadius: "50%",
         duration: 1.5,
-        repeat: -1,
 
         ease: "back.out(1.7)",
       })
