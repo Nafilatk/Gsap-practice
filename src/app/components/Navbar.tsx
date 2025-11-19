@@ -12,6 +12,7 @@ export default function Navbar() {
         <Link href="/gsap.timeline">Timeline</Link>
         <Link href="/stagger">Stagger</Link>
         <Link href="/gsap.text">Text</Link>
+        <Link href="/scrollTrigger">ScrollTrigger</Link>
 
       </div>
     </nav>

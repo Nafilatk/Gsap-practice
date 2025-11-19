@@ -74,14 +74,14 @@ export default function Text() {
                 ease: "power4.out"
             })
             .from(para4Ref.current, {
-                duration: 2,
+                duration: 1,
                 yoyo: true,
                 ease: "none",
 
             })
             .from(para5Ref.current, {
                 clipPath: "inset(0 0 100% 0)",
-                duration: 1.2,
+                duration: 3,
                 ease: "power2.out"
             })
 
@@ -91,8 +91,8 @@ export default function Text() {
 
         <div>
 
-                <section>
-                                <div className="w-screen h-screen flex flex-col gap-4 justify-center items-center bg-black text-white">
+            <section>
+                <div className=" flex flex-col gap-4 justify-center items-center bg-black text-white p-20 40  ">
 
                     <h1 ref={textHead} className="text-5xl font-bold">
                         Text Animations
@@ -139,11 +139,7 @@ export default function Text() {
 
                         Ensure focus states and keyboard navigation aren’t broken by overlays/masks.
                     </p>
-                    </div>
-                </section>
 
-                {/* <section> */}
-                                <div className="w-screen h-screen flex flex-col gap-4 justify-center items-center bg-black text-white">
 
                     <p ref={para3Ref} className=" ml-20 mr-20">
                         Performance tips
@@ -181,13 +177,23 @@ export default function Text() {
                         Use gsap.getProperty(el, "x") or gsap.getTweensOf(el) to inspect.
 
                         If SplitText isn’t defined, ensure you imported/registerPlugin before using it.
+
+
+                        What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
                     </p>
+                </div>
+
+
+            </section>
+
         </div>
 
-
-                {/* </section> */}
-
-            </div>
 
     )
 }
