@@ -9,7 +9,9 @@ export default function Home() {
 
   useEffect(() => {
     const tl = gsap.timeline({
-      defaults: { duration: 1, ease: "power3.out", }
+      defaults: { duration: 1, ease: "power3.out", },
+      repeat:-1,
+      yoyo:true
     });
 
     tl.from(box1.current, {

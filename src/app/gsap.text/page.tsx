@@ -1,6 +1,5 @@
 "use client"
 import { gsap } from "gsap"
-import { url } from "inspector"
 import { useEffect, useRef } from "react"
 export default function Text() {
 
