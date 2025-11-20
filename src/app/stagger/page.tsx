@@ -52,16 +52,6 @@ export default function Page() {
       ))}
     </div>
 
-        <div className="w-screen h-screen flex flex-col gap-4 justify-center items-center bg-black text-white">
-      <h1 ref={titleRef} className="text-5xl font-bold">
-        Welcome to GSAP
-      </h1>
-
-      <p ref={textRef} className="text-xl w-1/2 text-center text-gray-300">
-        This text slides in after the title fades in. Using GSAP Timeline makes
-        animations clean and easy to control.
-      </p>
-    </div>
 
     </div>
   );
