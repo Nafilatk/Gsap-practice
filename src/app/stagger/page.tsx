@@ -26,22 +26,13 @@ export default function Page() {
         }
     })
 
-    tl.from (titleRef.current ,{
-        opacity : 0,
-        y: -30,
-        
-    })
-    .from(textRef.current,{
-        opacity : 0,
-         x: -200,
        
-    })
   }, []);
 
   return (
     <div>
     <div className="w-screen h-screen flex justify-center items-center gap-5 bg-black">
-      {[1, 2, 3, 4, 5].map((_, i) => (
+      {[1, 2, 3, 4, 5,6,7,8,9].map((_, i) => (
         <div
           key={i}
           ref={(el) => {

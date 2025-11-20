@@ -37,56 +37,56 @@ export default function Home() {
       .to(box3.current, {
         rotate: 360,
         borderRadius: "20%",
-        duration: 1,
+        duration: 0.5,
         ease: "elastic.out(1, 0.4)"
       })
       .to(box3.current, {
         x: -250,
         borderRadius: "100%",
-        duration: 1,
+        duration: 0.5,
         ease: "Power3.out"
       });
     tl.to(box1.current, {
       x: 250,
       borderRadius: "100%",
-      duration: 1,
+      duration: 0.5,
       ease: "Power3.out"
 
     }),
       tl.to(box2.current, {
         x: -130,
         borderRadius: "100%",
-        duration: 1,
+        duration: 0.5,
         ease: "Power3.out"
       })
     tl.to(box3.current, {
       x: -120,
       borderRadius: "100%",
-      duration: 1,
+      duration: 0.5,
       ease: "Power3.out"
     }),
       tl.to(box1.current, {
         x: 120,
         borderRadius: "100%",
-        duration: 1,
+        duration: 0.5,
         ease: "Power3.out"
       }),
       tl.to(box3.current, {
         x: -5,
         borderRadius: "100%",
-        duration: 1,
+        duration: 0.5,
         ease: "Power3.out"
       })
     tl.to(box1.current, {
       x: -10,
       borderRadius: "100%",
-      duration: 1,
+      duration: 0.5,
       ease: "Power3.out"
     }),
       tl.to(box2.current, {
         x: 0,
         borderRadius: "100%",
-        duration: 1,
+        duration: 0.5,
         ease: "Power3.out"
       })
 
