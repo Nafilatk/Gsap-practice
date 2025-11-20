@@ -11,17 +11,7 @@ export default function ScrollExample() {
   const pinSectionRef = useRef(null);
 
   useEffect(() => {
-    gsap.from(headingRef.current, {
-      y: 80,
-      opacity: 0,
-      duration: 1.5,
-      scrollTrigger: {
-        trigger: headingRef.current,
-        start: "top 80%", 
-        end: "top 30%",
-        scrub: true,
-      }
-    });
+ 
 
     gsap.to(boxRef.current, {
       rotation: 360,
@@ -34,6 +24,7 @@ export default function ScrollExample() {
       }
     });
 
+    // Animation 3: Pin a section
     gsap.from(".pin-text", {
       x: -200,
       opacity: 0,
