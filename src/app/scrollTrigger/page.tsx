@@ -35,17 +35,15 @@ export default function AdvancedScroll() {
       },
     });
     gsap.from(".fhead", {
-      x: -400,
+      x: -300,
       y: 0,
       opacity: 0,
-      duration: 5,
+      duration: 4,
       stagger: 0.3,
       ease: "power3.out",
       scrollTrigger: {
         trigger: ".fhead",
         toggleActions: "restart pause resume",
-        start: "top top",
-        end: "+=800",
 
 
       }
