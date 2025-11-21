@@ -17,7 +17,7 @@ export default function Home() {
             duration: 2,
             rotate: 360,
             scale: 3,
-            repeat: -1,
+            repeat : -1,
             opacity: 0.8,
             ease: "power1.out",
         }),
@@ -26,7 +26,7 @@ export default function Home() {
                 duration: 2,
                 rotate: 360,
                 scale: 3,
-                repeat: -1,
+                 repeat : -1,           
                 opacity: 0.8,
                 ease: "power1.out",
             })
@@ -39,7 +39,7 @@ export default function Home() {
         <div>
             <section>
 
-                <div className="w-screen h-screen flex flex-col md:flex-row items-center justify-center gap-8 bg-black">
+                <div className="w-screen h-screen flex items-center justify-center bg-black">
                     <div
                         ref={box1Ref}
 

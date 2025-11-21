@@ -18,7 +18,7 @@ export default function Home() {
           </h1>
           <div>
                       <a
-              className="flex h-10 w-full items-center justify-center gap-5 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[153px]"
+              className="flex h-10 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[153px]"
               href="https://vercel.com/new"
               target="_blank"
               rel="noopener noreferrer"
