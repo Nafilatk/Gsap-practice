@@ -5,8 +5,6 @@ import { useEffect, useRef } from "react";
 export default function Page() {
 
   const boxesRef = useRef<HTMLDivElement[]>([]);
-  const titleRef = useRef(null)
-  const textRef = useRef(null)
 
   useEffect(() => {
     gsap.from(boxesRef.current, {
@@ -19,20 +17,18 @@ export default function Page() {
     
     });
 
-    const  tl = gsap.timeline({
-        defaults :{
-            duration : 1,
-            ease :" Power2.out"
-        }
-    })
+
 
        
   }, []);
 
   return (
+
     <div>
-    <div className="w-screen h-screen flex justify-center items-center gap-5 bg-black">
-      {[1, 2, 3, 4, 5,6,7,8,9].map((_, i) => (
+    <div className="w-screen h-screen flex justify-center items-center  mt-50">
+    <div className="grid grid-cols-10 gap-3">
+
+      {Array.from({length :100}).map((_, i) => (
         <div
           key={i}
           ref={(el) => {
@@ -45,5 +41,8 @@ export default function Page() {
 
 
     </div>
+
+    </div>
+
   );
 }
