@@ -113,6 +113,7 @@ export default function Text() {
                     <ul ref={ulRef} className=" ml-20 mr-20">
                         <li >
                             Tween / Timeline — a tween animates a property; a timeline sequences/coordinates tweens.
+                            heheheheheheheheh
                         </li>
                         <li>
                             Stagger — offsetting start times across sibling elements (perfect for characters/words).
