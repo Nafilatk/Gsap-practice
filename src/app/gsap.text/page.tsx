@@ -116,7 +116,7 @@ export default function Text() {
                             heheheheheheheheh
                         </li>
                         <li>
-                            Stagger — offsetting start times across sibling elements (perfect for characters/words).
+                            Stagger — offsetting start times across siblinfghjhgfyhhhbhg elements (perfect for characters/words).
                         </li>
                         <li>
                             from / to / fromTo — start-from vs end-to animation styles; from() is great for entrance effects.
