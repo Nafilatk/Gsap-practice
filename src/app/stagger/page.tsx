@@ -28,7 +28,7 @@ export default function Page() {
     <div className="w-screen h-screen flex justify-center items-center  mt-50">
     <div className="grid grid-cols-10 gap-3">
 
-      {Array.from({length :100}).map((_, i) => (
+      {Array.from({length :8}).map((_, i) => (
         <div
           key={i}
           ref={(el) => {
